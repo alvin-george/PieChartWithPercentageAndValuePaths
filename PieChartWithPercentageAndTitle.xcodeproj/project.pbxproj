@@ -12,6 +12,7 @@
 		18E9F9C31EF7CB0400E4705C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F9C11EF7CB0400E4705C /* Main.storyboard */; };
 		18E9F9C51EF7CB0400E4705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F9C41EF7CB0400E4705C /* Assets.xcassets */; };
 		18E9F9C81EF7CB0400E4705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F9C61EF7CB0400E4705C /* LaunchScreen.storyboard */; };
+		2A93C15AFBA4BD8A1067F588 /* Pods_PieChartWithPercentageAndTitle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315A8D9F4E8B4C772BED4BD7 /* Pods_PieChartWithPercentageAndTitle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		18E9F9C41EF7CB0400E4705C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E9F9C71EF7CB0400E4705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E9F9C91EF7CB0400E4705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315A8D9F4E8B4C772BED4BD7 /* Pods_PieChartWithPercentageAndTitle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PieChartWithPercentageAndTitle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8277243403255F665851734 /* Pods-PieChartWithPercentageAndTitle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieChartWithPercentageAndTitle.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieChartWithPercentageAndTitle/Pods-PieChartWithPercentageAndTitle.release.xcconfig"; sourceTree = "<group>"; };
+		E5B7AAAEDD73779FF41ED695 /* Pods-PieChartWithPercentageAndTitle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieChartWithPercentageAndTitle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieChartWithPercentageAndTitle/Pods-PieChartWithPercentageAndTitle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A93C15AFBA4BD8A1067F588 /* Pods_PieChartWithPercentageAndTitle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				18E9F9BC1EF7CB0300E4705C /* PieChartWithPercentageAndTitle */,
 				18E9F9BB1EF7CB0300E4705C /* Products */,
+				8B1FDD6C5C4FDDBA43780C6A /* Pods */,
+				53E7DA9C344322CA844A86D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = PieChartWithPercentageAndTitle;
 			sourceTree = "<group>";
 		};
+		53E7DA9C344322CA844A86D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				315A8D9F4E8B4C772BED4BD7 /* Pods_PieChartWithPercentageAndTitle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B1FDD6C5C4FDDBA43780C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B7AAAEDD73779FF41ED695 /* Pods-PieChartWithPercentageAndTitle.debug.xcconfig */,
+				A8277243403255F665851734 /* Pods-PieChartWithPercentageAndTitle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E9F9CC1EF7CB0400E4705C /* Build configuration list for PBXNativeTarget "PieChartWithPercentageAndTitle" */;
 			buildPhases = (
+				A4163CC78821AB3F58B0F32A /* [CP] Check Pods Manifest.lock */,
 				18E9F9B61EF7CB0300E4705C /* Sources */,
 				18E9F9B71EF7CB0300E4705C /* Frameworks */,
 				18E9F9B81EF7CB0300E4705C /* Resources */,
+				C81B5D09474CA3EF754981A8 /* [CP] Embed Pods Frameworks */,
+				6FBEEF798BA4CAD004F3E6C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FBEEF798BA4CAD004F3E6C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieChartWithPercentageAndTitle/Pods-PieChartWithPercentageAndTitle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4163CC78821AB3F58B0F32A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C81B5D09474CA3EF754981A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieChartWithPercentageAndTitle/Pods-PieChartWithPercentageAndTitle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18E9F9B61EF7CB0300E4705C /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		18E9F9CD1EF7CB0400E4705C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B7AAAEDD73779FF41ED695 /* Pods-PieChartWithPercentageAndTitle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PieChartWithPercentageAndTitle/Info.plist;
@@ -270,6 +346,7 @@
 		};
 		18E9F9CE1EF7CB0400E4705C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8277243403255F665851734 /* Pods-PieChartWithPercentageAndTitle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PieChartWithPercentageAndTitle/Info.plist;
