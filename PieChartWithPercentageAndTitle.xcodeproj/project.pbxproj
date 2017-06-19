@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E39E031EF8152A0090B36B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E39E021EF8152A0090B36B /* SecondViewController.swift */; };
 		18E9F9BE1EF7CB0300E4705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F9BD1EF7CB0300E4705C /* AppDelegate.swift */; };
 		18E9F9C01EF7CB0400E4705C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9F9BF1EF7CB0400E4705C /* ViewController.swift */; };
 		18E9F9C31EF7CB0400E4705C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F9C11EF7CB0400E4705C /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18E39E021EF8152A0090B36B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		18E9F9BA1EF7CB0300E4705C /* PieChartWithPercentageAndTitle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChartWithPercentageAndTitle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9F9BD1EF7CB0300E4705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E9F9BF1EF7CB0400E4705C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				18E9F9C41EF7CB0400E4705C /* Assets.xcassets */,
 				18E9F9C61EF7CB0400E4705C /* LaunchScreen.storyboard */,
 				18E9F9C91EF7CB0400E4705C /* Info.plist */,
+				18E39E021EF8152A0090B36B /* SecondViewController.swift */,
 			);
 			path = PieChartWithPercentageAndTitle;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E39E031EF8152A0090B36B /* SecondViewController.swift in Sources */,
 				18E9F9C01EF7CB0400E4705C /* ViewController.swift in Sources */,
 				18E9F9BE1EF7CB0300E4705C /* AppDelegate.swift in Sources */,
 			);
@@ -376,6 +380,7 @@
 				18E9F9CE1EF7CB0400E4705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
